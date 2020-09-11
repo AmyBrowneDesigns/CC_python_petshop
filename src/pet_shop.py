@@ -19,4 +19,33 @@ def get_stock_count(pet_shop):
     return len(pet_shop['pets'])
 
 
-#def all_pets_by_breed(pet_shop, breed):
+# def get_pets_by_breed(pet_shop, pets):
+#     found_breeds = []
+#     for breed in pets:
+#         if breed == True:
+#             found_breeds.append(breed)
+#     return len(pet_shop['pets'][found_breeds])
+
+
+# def get_pets_by_breed(pet_shop, breed):
+#     found_breeds = []
+#     for breed in pets:
+#         if breed != breed:
+#             return len(pet_shop['pets'])
+
+
+def find_pet_by_name(pet_shop, pet_name):
+    return pet_shop['pets']['name'][3]
+
+
+# def find-pet_by_name(pet-shop, pet_name):
+#     return pet_shop['pets']['name']
+
+
+# def remove_pet_by_name(pet_shop, pet_name):
+#     if 
+
+
+
+
+
