@@ -27,8 +27,8 @@ def get_pets_by_breed(pet_shop, breed_type):
     return found_breeds
 
 
-# def find_pet_by_name(pet_shop, pet_name):
-#         return pet_shop['pets'][3]
+def find_pet_by_name(pet_shop, pet_name):
+        return pet_shop['pets'][3]
 
 
 # def find_pet_by_name(pet_shop, pet_name):
