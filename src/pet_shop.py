@@ -32,12 +32,23 @@ def find_pet_by_name(pet_shop, pet_name):
 
 
 # def find_pet_by_name(pet_shop, pet_name):
-#     for pet_name in pet_shop:
-#         if pet_name == False:
-#             return ('none')
+#     for pet in pet_shop['pets']:
+#         if pet == pet_name:
+#             return pet
+
+def find_pet_by_name(pet_shop,pet_name):
+    for pet in pet_shop["pets"]:
+        if pet["name"] == pet_name:
+            return pet
+
+# def find_pet_by_name(pet_shop, pet_name):
 
 
-# def remove_pet_by_name(pet_shop, pet_name):
+
+
+
+
+ #def remove_pet_by_name(pet_shop, pet_name):
 #    for name in pet_name:
 #        if pet_name == True:
 #         del pet_shop ['pets']['name']

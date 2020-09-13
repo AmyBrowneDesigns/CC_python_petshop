@@ -123,9 +123,9 @@ class TestPetShop(unittest.TestCase):
         pet = find_pet_by_name(self.cc_pet_shop, "Arthur")
         self.assertEqual("Arthur", pet["name"])
 
-    # def test_find_pet_by_name__returns_None(self):
-    #     pet = find_pet_by_name(self.cc_pet_shop, "Fred")
-    #     self.assertIsNone(pet)
+    def test_find_pet_by_name__returns_None(self):
+        pet = find_pet_by_name(self.cc_pet_shop, "Fred")
+        self.assertIsNone(pet)
 
     
     # def test_remove_pet_by_name(self):
