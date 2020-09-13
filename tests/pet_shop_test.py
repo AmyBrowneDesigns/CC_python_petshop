@@ -134,10 +134,10 @@ class TestPetShop(unittest.TestCase):
         self.assertIsNone(pet)
 
     
-    # def test_add_pet_to_stock(self):
-    #     add_pet_to_stock(self.cc_pet_shop, self.new_pet)
-    #     count = get_stock_count(self.cc_pet_shop)
-    #     self.assertEqual(7, count)
+    def test_add_pet_to_stock(self):
+        add_pet_to_stock(self.cc_pet_shop, self.new_pet)
+        count = get_stock_count(self.cc_pet_shop)
+        self.assertEqual(7, count)
 
     
     # def test_customer_cash(self):

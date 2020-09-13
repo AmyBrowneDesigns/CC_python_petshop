@@ -48,20 +48,8 @@ def remove_pet_by_name(pet_shop, pet_name):
 
 
 
-
-
-
-
-
- #def remove_pet_by_name(pet_shop, pet_name):
-#    for name in pet_name:
-#        if pet_name == True:
-#         del pet_shop ['pets']['name']
-
-
-# def add_pet_to_stock(pet_shop, add_pet):
-#     pet_shop [new_pet] += add_pet
-#     return len(pet_shop[new_pet]) 
+def add_pet_to_stock(pet_shop, new_pet):
+    pet_shop['pets'].append(new_pet) 
 
 
 
