@@ -151,15 +151,15 @@ class TestPetShop(unittest.TestCase):
         self.assertEqual(900, customer["cash"])
 
     
-    # def test_customer_pet_count(self):
-    #     count = get_customer_pet_count(self.customers[0])
-    #     self.assertEqual(0, count)
+    def test_customer_pet_count(self):
+        count = get_customer_pet_count(self.customers[0])
+        self.assertEqual(0, count)
 
     
-    # def test_add_pet_to_customer(self):
-    #     customer = self.customers[0]
-    #     add_pet_to_customer(customer, self.new_pet)
-    #     self.assertEqual(1, get_customer_pet_count(customer))
+    def test_add_pet_to_customer(self):
+        customer = self.customers[0]
+        add_pet_to_customer(customer, self.new_pet)
+        self.assertEqual(1, get_customer_pet_count(customer))
 
     # --- OPTIONAL ---
 
